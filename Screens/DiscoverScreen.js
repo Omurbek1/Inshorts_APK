@@ -70,7 +70,6 @@ const DiscoverScreen = () => {
         </View>
     );
 };
-
 export default DiscoverScreen;
 
 const styles = StyleSheet.create({
