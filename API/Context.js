@@ -25,7 +25,6 @@ const Context = ({ children }) => {
             console.log(error);
         }
     };
-
     useEffect(() => {
         fetchNews();
     }, [category]);
@@ -33,7 +32,6 @@ const Context = ({ children }) => {
     useEffect(() => {
         fetchNewsfromSource();
     }, [source]);
-
     return (
         <NewsContext.Provider
             value={{
